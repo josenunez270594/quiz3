@@ -1,0 +1,160 @@
+/* Reseteo de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 0 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #ba3737;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Sección Principal */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .hero img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .hero button {
+    background-color: #ba3737;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .hero button:hover {
+    background-color: #ff5714;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .testimonio {
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Pie de Página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer .social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .social li {
+    margin: 0 10px;
+  }
+  
+  footer .social li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Sección de Características */
+  .caracteristicas {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .caracteristica {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .caracteristica-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .caracteristica h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
